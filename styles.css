@@ -36,27 +36,6 @@
      text-shadow: 0 0 20px #fff, 0 0 30px #090b6e, 0 0 40px #2878f5, 0 0 50px #272cfb, 0 0 60px #2c1795, 0 0 70px #190cbf, 0 0 80px #13089f;
    }
  }
-.wt_letter {
-  color: white;
-  text-align: center;
-}
-.wt_letter2 {
-  color: white;
-  text-shadow: 2px 2px #ff0000;
-}
-#footer_dark{
-  background-color: grey;
-}
-
-
-
-
-
-
-
-
-
-
 
 :root {
   --bs-blue: #0d6efd;
