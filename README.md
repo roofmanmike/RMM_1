@@ -5,4 +5,3 @@ The site is also in React App, waiting to upload here soon!
 Python back end, also PHP beta in testing. Restricted onsite access only!
 Thanks for looking!
 ~M. Foley / RMM DevOps
-www.roofmanmike.com
