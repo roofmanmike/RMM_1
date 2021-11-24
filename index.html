@@ -15,14 +15,6 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
 
-  <!-- Bootstrap core CSS -->
-  <link href="{‌{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="{‌{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
   <!-- Custom styles for this template -->
   <link href="styles.css" rel="stylesheet" />
 
@@ -32,20 +24,23 @@
 <body style="background-color:black">
 
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:gainsboro" id="mainNav">
     <div class="container px-4 px-lg-5">
-      <a class="navbar-brand glow" href="tel:248-678-7663">(248)678-ROOF)</a>
+      <a class="navbar-brand" href="tel:248-678-7663">(248)678-ROOF)</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse"style="background-color:gainsboro; text-align:center;" id="navbarResponsive">
         <ul class="navbar-nav ms-auto py-4 py-lg-0">
           <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="lowSlope.html">MI Ins Codes</a></li>
-
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Low_slope_Ins_Facts.html">Insulation</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#2-part_stick">Adhesives</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#coverboard">Protection</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#membranes">Membranes</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#metal">Metal</a></li>
         </ul>
       </div>
     </div>
@@ -65,15 +60,10 @@
               <br>
               <br>
               <br>
-
-              <div class="card" style="opacity: 60%; width: 18rem; left:130px;">
-                <img class="card-img-top" src="MinR.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title" style="color:black">Is YOUR roof up to code?</h5>
-                  <p class="card-text" style="color:black">Michigan Minimum Insulation Requirements for Low-Slope Commercial Roofing</p>
-                  <a href="lowSlope.html" class="btn btn-primary">SEE HERE</a>
-                </div>
-              </div>
+              <a href="lowSlope.html" style="color:white">
+                  <p style="color:white">Michigan Minimum Insulation Requirements for Low-Slope Commercial Roofing</p>
+                  <h5 style="color:white">Is YOUR roof up to code?</h5>
+                </a>
 
             </span>
 
@@ -87,7 +77,7 @@
   <hr>
   <br>
   <!-------------------->
-  <header class="masthead" style="background-image: url('iso_3-2.jfif')">
+  <header class="masthead" id="mech_fast" style="background-image: url('iso_3-2.jfif')">
     <div class="container position-relative px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -104,10 +94,10 @@
   </header>
   <hr>
   <!--------->
-  <h2 class="wt_letter">Fully Adhered, Fastener Free:</h2>
+  <h2 style="color:white">Fully Adhered, Fastener Free:</h2>
 <hr>
 <br>
-  <header class="masthead" style="background-image: url('isoStick.jfif')">
+  <header class="masthead" id="2-part_stick" style="background-image: url('isoStick.jfif')">
     <div class="container position-relative px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -149,14 +139,12 @@
             <br>
           </div>
         </div>
-        <h3 class="wt_letter">Alternatively, Pea Ballast Systems</h3>
-        <img src="peaBallast.jpg" alt="">
-
       </div>
     </div>
   </header>
-
-  <header class="masthead" style="background-image: url('cover_board.jpg')">
+  <h3 style="color:white">Alternatively, Pea Ballast Systems</h3>
+  <img src="peaBallast.jpg" id="peaballast" alt="">
+  <header class="masthead" id="coverboard" style="background-image: url('cover_board.jpg')">
     <div class="container position-relative px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -171,12 +159,10 @@
       </div>
     </div>
   </header>
-  <div class="wt_letter">
-    <p>Now cap it off with expert installed membrane from TOP Manufacturers</p>
-  </div>
+    <p style="color:white">Now cap it off with expert installed membrane from TOP Manufacturers</p>
   <br>
 
-  <header class="masthead" style="background-image: url('wl_1.jpg')">
+  <header class="masthead" id="TPO" style="background-image: url('wl_1.jpg')">
     <div class="container position-relative px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -198,11 +184,7 @@
       </div>
     </div>
   </header>
-
-
-  <div class="wt_letter">
-    <p>Installation and repairs for ALL commercial roof systems</p>
-  </div>
+    <p style="color:white">Installation and repairs for ALL commercial roof systems</p>
   <br>
 
 <!-------------->
@@ -215,7 +197,7 @@
   <div class="card-group" id="cards">
 
 
-      <div class="card" style="width: 18rem; background-color:grey;">
+      <div class="card" id="membranes" style="width: 18rem; background-color:grey;">
         <img src="mod_bit_1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Modified Bitumen</h5>
